@@ -23,6 +23,8 @@ img{
 .container{
     margin: 20px auto;
     width: 80%;
+    min-width: 700px;
+    max-width: 1500px;
 }
 
 .float{
@@ -100,36 +102,25 @@ header nav ul li a{
     color: grey;
 }
 
-.banner-img1-row{
+.banner-row{
     position: relative;
     height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 2em;
+    overflow: hidden;
+}
+
+#img1-row{
     background-image: url(../img/img-1.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 2em;
-    overflow: hidden;
 }
 
-.banner-img2-row{
-    position: relative;
-    height: 300px;
+#img2-row{
     background-image: url(../img/banner-2.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 2em;
-    overflow: hidden;
-
 }
 
-.banner-img3-row{
-    position: relative;
-    height: 300px;
+#img3-row{
     background-image: url(../img/img-3.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 2em;
-    overflow: hidden;
-
 }
 
 .content .column h4{
@@ -138,6 +129,7 @@ header nav ul li a{
 
 .content .column p{
     color: grey;
+    margin-bottom: 20px;
 }
 .column{
     margin-bottom: 15px;
@@ -157,5 +149,9 @@ header nav ul li a{
 .footer{
     margin-top: 5px;
     height: 50px;
-    background-color: #8801fe;
+    text-align: center;
+}
+footer span{
+    color: red;
+    font-size: 25px;
 }
