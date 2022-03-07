@@ -54,11 +54,27 @@ header nav ul li a{
 }
 
 /* MAIN */
+
+.with-overlay::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .2);
+}
+
 .banner{
+    position: relative;
+    background-image: url(../img/banner.jpg);
+    background-position: center;
     margin: 20px 0;
-    height: 300px;
-    background-color: #e1d67a;
+    height: 450px;
+    border-radius: 1em;
+    overflow: hidden;
 } 
+
 
 /* section content */
 .content{
